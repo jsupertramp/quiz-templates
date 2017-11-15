@@ -12,6 +12,9 @@ def riddle(key, value):
       print("okay, fine, but FYI, the preposition for %s is >>>%s" %(key, value))
       #### it would be cool to write all the wrong answers onto the study list!!! #####
       ### at the end I could easily divide len(studylist)/len(masterlist) to give the grade!
+      studylist = []
+      studylist.append(key, value)
+      print("So far, your study list includes the following: %s" %(studylist))
       time.sleep(1)
       attempt = value
     else: 
